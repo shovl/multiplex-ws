@@ -1,0 +1,23 @@
+{
+  "name": "multiplex-ws",
+  "version": "1.0.0",
+  "description": "Multiplexed Web Sockets",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel lib -d dist",
+    "dev": "babel-node ."
+  },
+  "author": "Michał Nykiel",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.2.0",
+    "eslint-config-spartez": "^1.4.0"
+  },
+  "dependencies": {
+    "ws": "^3.0.0"
+  }
+}
